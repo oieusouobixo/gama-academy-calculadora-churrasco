@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Apple Braille';
+    src: url('./Apple\ Braille\ Outline\ 8\ Dot.ttf');
+}
+
+:root {
+    color: #f7f0f0;
+    background-color: #A23BF1;
+}
+
+body {
+    background-color: #A23BF1;
+}
+
+input {
+    background-color: #731ab7;
+    border:  2px solid #f7f7f7;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+header {
+    margin: 50px;
+}
+
+h5 {
+    font-family: 'Apple Braille', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background-color: #731ab7;
+    color: #f7f0f0;
+    text-align: center;
+    width: 1000px;
+    height: 100%;
+}
+
+.label {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.acompanhamentos {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.resultado {
+    background-color: #00000029;
+    margin: 0 30px;
+    padding: 50px 30px;
+}
+
+#botaoCalcular {
+    width: 200px;
+    background-color: #63DC3E;
+    color: #731ab7;
+    margin: 50px;
+    margin-top: 0;
+}
